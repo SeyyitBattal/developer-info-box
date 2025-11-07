@@ -6,10 +6,11 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class Developer {
-    private long id;
+    private String id;
     private String name;
     private String surname;
-    private long phone;
+    private String phone;
     private String email;
     private Department department;
+    private int termOfOffice;
 }
