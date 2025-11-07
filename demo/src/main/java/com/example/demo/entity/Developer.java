@@ -2,11 +2,12 @@ package com.example.demo.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NonNull;
 
 @Data
 @AllArgsConstructor
 public class Developer {
-    private String id;
+    private int id;
     private String name;
     private String surname;
     private String phone;
